@@ -1,0 +1,165 @@
+body {
+    background-color: rgba(252, 243, 231, 0.362);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: rgb(103, 60, 3);
+    color: white;
+    padding: 12px 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.title {
+    background-color: rgb(103, 60, 3);
+    color: white;
+    padding-bottom: 35px;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 250px;
+}
+
+button {
+    background-color: rgb(247, 195, 131);
+    color: white;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: none;
+    padding: 4px 9px;
+}
+
+.placeholder {
+    background-color: rgb(103, 101, 101);
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: auto;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 660px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 200px;
+    width: 100%;
+}
+
+.empty {
+    display: flex;
+    border: 2px solid  rgb(237, 135, 11);
+    width: 100%;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.review-container {
+    background-color: rgb(186, 190, 193);
+    display: flex;
+    padding: 75px 0;
+}
+
+.review {
+    width: 100%;
+}
+
+.name {
+    text-align: right;
+    width: 100%;
+}
+
+.call-it-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 32px 0;
+}
+
+.call-it-info {
+    color: white;
+    padding: 24px 48px;
+    background-color: rgb(115, 119, 182);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 36px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+p {
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(103, 60, 3);
+    padding: 18px 0;
+    color: white;
+}
+
+.container-large {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 840px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.container-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+.title,
+.header,
+.box-container,
+.review-container,
+.call-it-box,
+.footer {
+    padding-left: 8px;
+    padding-right: 8px;
+}
